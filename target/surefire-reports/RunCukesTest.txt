@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 44, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.217 sec <<< FAILURE!
+Then I am not able to place an order for a cat(Scenario: Users are NOT able to place orders for available pets)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <400>
+     but: was <200>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at endpoints.BaseEndpoints.verifyResponseStatusValue(BaseEndpoints.java:46)
+	at stepdefs.OrderEndpointStepDefinitions.i_am_not_able_to_place_an_order_for_a_cat(OrderEndpointStepDefinitions.java:65)
+	at ✽.Then I am not able to place an order for a cat(OrderTests.feature:31)
+
+Scenario: Users are NOT able to place orders for available pets  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <400>
+     but: was <200>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at endpoints.BaseEndpoints.verifyResponseStatusValue(BaseEndpoints.java:46)
+	at stepdefs.OrderEndpointStepDefinitions.i_am_not_able_to_place_an_order_for_a_cat(OrderEndpointStepDefinitions.java:65)
+	at ✽.Then I am not able to place an order for a cat(OrderTests.feature:31)
+
+Then the requests response will contain the value 'Pet not found' for the 'message' field(Scenario: Users are able to delete pets from the system)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "Pet not found"
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at endpoints.BaseEndpoints.verifyResponseKeyValues(BaseEndpoints.java:33)
+	at stepdefs.CommonDefinitions.i_will_be_able_to_run_connected_step_definitions(CommonDefinitions.java:25)
+	at ✽.Then the requests response will contain the value 'Pet not found' for the 'message' field(PetTests.feature:17)
+
+Scenario: Users are able to delete pets from the system  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is "Pet not found"
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at endpoints.BaseEndpoints.verifyResponseKeyValues(BaseEndpoints.java:33)
+	at stepdefs.CommonDefinitions.i_will_be_able_to_run_connected_step_definitions(CommonDefinitions.java:25)
+	at ✽.Then the requests response will contain the value 'Pet not found' for the 'message' field(PetTests.feature:17)
+

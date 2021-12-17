@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="44" failures="4" name="RunCukesTest" time="0.016" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.2+9"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/galla/Desktop/restassured-cucumber-framework-master"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/galla/Desktop/restassured-cucumber-framework-master"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.2+9"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/mc/h2ph36md3rq41hqwhrj7vcp40000gq/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/galla/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf11192718401634430863.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/galla/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/galla"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="galla"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.11.0.20190220-2117/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/galla/Desktop/restassured-cucumber-framework-master/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Correct error message is provided when searching for an order that does not exist" name="Given the Swagger Petstore API is available" time="0.003"/>
+  <testcase classname="Scenario: Correct error message is provided when searching for an order that does not exist" name="When I search for an order with an id value of &apos;15787678&apos;" time="0"/>
+  <testcase classname="Scenario: Correct error message is provided when searching for an order that does not exist" name="Then the requests response will contain the value &apos;Order not found&apos; for the &apos;message&apos; field" time="0"/>
+  <testcase classname="Scenario: Correct error message is provided when searching for an order that does not exist" name="Scenario: Correct error message is provided when searching for an order that does not exist" time="0.001"/>
+  <testcase classname="Scenario: Users are able to place orders for pets" name="Given the Swagger Petstore API is available" time="0"/>
+  <testcase classname="Scenario: Users are able to place orders for pets" name="When I place an order for a pet with an order id of &apos;58&apos;" time="0"/>
+  <testcase classname="Scenario: Users are able to place orders for pets" name="Then the order request response has a &apos;200&apos; response code" time="0"/>
+  <testcase classname="Scenario: Users are able to place orders for pets" name="And the order requests response contains the correct json data" time="0"/>
+  <testcase classname="Scenario: Users are able to place orders for pets" name="Scenario: Users are able to place orders for pets" time="0.001"/>
+  <testcase classname="Scenario: Users are able to search for orders by its id" name="Given an order exists for a pet" time="0"/>
+  <testcase classname="Scenario: Users are able to search for orders by its id" name="When I search for the order by its id" time="0"/>
+  <testcase classname="Scenario: Users are able to search for orders by its id" name="Then the complete order is returned" time="0"/>
+  <testcase classname="Scenario: Users are able to search for orders by its id" name="Scenario: Users are able to search for orders by its id" time="0"/>
+  <testcase classname="Scenario: Users are able to place orders for available pets" name="Given a cat is &apos;available&apos;" time="0"/>
+  <testcase classname="Scenario: Users are able to place orders for available pets" name="Then I am able to place an order for a cat" time="0"/>
+  <testcase classname="Scenario: Users are able to place orders for available pets" name="Scenario: Users are able to place orders for available pets" time="0"/>
+  <testcase classname="Scenario: Users are NOT able to place orders for available pets" name="Given a cat is &apos;unavailable&apos;" time="0"/>
+  <testcase classname="Scenario: Users are NOT able to place orders for available pets" name="Then I am not able to place an order for a cat" time="0.004">
+    <failure message="
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at endpoints.BaseEndpoints.verifyResponseStatusValue(BaseEndpoints.java:46)
+	at stepdefs.OrderEndpointStepDefinitions.i_am_not_able_to_place_an_order_for_a_cat(OrderEndpointStepDefinitions.java:65)
+	at ✽.Then I am not able to place an order for a cat(OrderTests.feature:31)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Users are NOT able to place orders for available pets" name="Scenario: Users are NOT able to place orders for available pets" time="0.004">
+    <failure message="
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &lt;400&gt;
+     but: was &lt;200&gt;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at endpoints.BaseEndpoints.verifyResponseStatusValue(BaseEndpoints.java:46)
+	at stepdefs.OrderEndpointStepDefinitions.i_am_not_able_to_place_an_order_for_a_cat(OrderEndpointStepDefinitions.java:65)
+	at ✽.Then I am not able to place an order for a cat(OrderTests.feature:31)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Users are able to add pets to the system" name="Given the Swagger Petstore API is available" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets to the system" name="When I add a Pet to the system" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets to the system" name="Then the pet request response has a &apos;200&apos; response code" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets to the system" name="And the pet requests response contains the correct json data" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets to the system" name="Scenario: Users are able to add pets to the system" time="0"/>
+  <testcase classname="Scenario: Users are able to delete pets from the system" name="Given a pet exists" time="0"/>
+  <testcase classname="Scenario: Users are able to delete pets from the system" name="When I delete the pet" time="0"/>
+  <testcase classname="Scenario: Users are able to delete pets from the system" name="And then search for the pet by it&apos;s id" time="0"/>
+  <testcase classname="Scenario: Users are able to delete pets from the system" name="Then the requests response will contain the value &apos;Pet not found&apos; for the &apos;message&apos; field" time="0">
+    <failure message="
+Expected: is &quot;Pet not found&quot;
+     but: was null" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &quot;Pet not found&quot;
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at endpoints.BaseEndpoints.verifyResponseKeyValues(BaseEndpoints.java:33)
+	at stepdefs.CommonDefinitions.i_will_be_able_to_run_connected_step_definitions(CommonDefinitions.java:25)
+	at ✽.Then the requests response will contain the value &apos;Pet not found&apos; for the &apos;message&apos; field(PetTests.feature:17)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Users are able to delete pets from the system" name="Scenario: Users are able to delete pets from the system" time="0">
+    <failure message="
+Expected: is &quot;Pet not found&quot;
+     but: was null" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: is &quot;Pet not found&quot;
+     but: was null
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at endpoints.BaseEndpoints.verifyResponseKeyValues(BaseEndpoints.java:33)
+	at stepdefs.CommonDefinitions.i_will_be_able_to_run_connected_step_definitions(CommonDefinitions.java:25)
+	at ✽.Then the requests response will contain the value &apos;Pet not found&apos; for the &apos;message&apos; field(PetTests.feature:17)
+</failure>
+  </testcase>
+  <testcase classname="Scenario: Users are able to add pets that have multiple tags" name="Given the Swagger Petstore API is available" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets that have multiple tags" name="Then I can add a pet that has multiple tags" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets that have multiple tags" name="Scenario: Users are able to add pets that have multiple tags" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets that have no tags" name="Given the Swagger Petstore API is available" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets that have no tags" name="Then I can add a pet that has no tags" time="0"/>
+  <testcase classname="Scenario: Users are able to add pets that have no tags" name="Scenario: Users are able to add pets that have no tags" time="0.001"/>
+  <testcase classname="Scenario: Id&apos;s are automatically generated for pets when not supplied with the request" name="Given the Swagger Petstore API is available" time="0"/>
+  <testcase classname="Scenario: Id&apos;s are automatically generated for pets when not supplied with the request" name="When I add a pet to the system without providing an id value" time="0"/>
+  <testcase classname="Scenario: Id&apos;s are automatically generated for pets when not supplied with the request" name="Then an id is automatically generated for the added pet" time="0"/>
+  <testcase classname="Scenario: Id&apos;s are automatically generated for pets when not supplied with the request" name="Scenario: Id&apos;s are automatically generated for pets when not supplied with the request" time="0.001"/>
+  <testcase classname="Scenario: Adding a pet with no body for the request results in a 400 response" name="Given the Swagger Petstore API is available" time="0"/>
+  <testcase classname="Scenario: Adding a pet with no body for the request results in a 400 response" name="When I add a pet and the json body is malformed and consists of only &apos;{&apos;" time="0"/>
+  <testcase classname="Scenario: Adding a pet with no body for the request results in a 400 response" name="Then the pet request response has a &apos;400&apos; response code" time="0"/>
+  <testcase classname="Scenario: Adding a pet with no body for the request results in a 400 response" name="Then the requests response will contain the value &apos;bad input&apos; for the &apos;message&apos; field" time="0"/>
+  <testcase classname="Scenario: Adding a pet with no body for the request results in a 400 response" name="Scenario: Adding a pet with no body for the request results in a 400 response" time="0.001"/>
+</testsuite>
