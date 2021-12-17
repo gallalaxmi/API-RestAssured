@@ -7,7 +7,7 @@ API Automation is RestAssured based Java and BDD framework to perform API testin
 2. Navigate to API-RestAssured
 ```
 
-**In terminal from root project folder (RestasssuredCucumber), run below commands as required**
+**In terminal from root project folder (API-RestAssured), run below commands as required**
 
 Run Tests
 - To run all features `mvn clean test verify`
